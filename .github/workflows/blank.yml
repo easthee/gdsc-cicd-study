@@ -24,5 +24,9 @@ jobs:
           node-version: 18.x
       - name: nodejs package install
         run: yarn install --production
+      - name: Install jest
+        run: yarn add jest
+      - name: Run test
+        run: yarn test
          
    
