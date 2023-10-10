@@ -22,5 +22,7 @@ jobs:
         uses: actions/setup-node@v3.8.1
         with:
           node-version: 18.x
+      - name: nodejs package install
+        run: yarn install --production
          
    
